@@ -69,10 +69,6 @@ app.get("/:listType", (req, res) => {
   })
 });
 
-// app.get("/about", (req, res) => {
-//   res.render("about");
-// });
-
 app.post("/", (req, res) => {
   const task = req.body.firstTask;
   const listName = req.body.button;
