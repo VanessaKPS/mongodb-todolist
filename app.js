@@ -113,6 +113,6 @@ app.post('/delete', (req, res) => {
   }
 });
 
-app.listen(process.env.PORT || 8008, () => {
-  console.log('server is running on boob');
+app.listen(process.env.PORT || 3000, () => {
+  console.log('server is running on 3000');
 });
